@@ -1,0 +1,35 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Pesquisa de **Núcleos Urbanos Informais**"
+  site-url: "https://pesquisanui.github.io/website/"
+#  lang: pt
+  page-footer: "Todo o conteúdo deste site está publicado sob a Licença Creative Commons Atribuição 2.5 Brasil.<br />Ipea - Instituto de Pesquisa Econômica Aplicada<br />[Política de Privacidade](https://www.ipea.gov.br/portal/images/stories/PDFs/211222_declaracao_privacidade_dados_ipea.pdf)<br />[Expediente – Assessoria de Imprensa e Comunicação](https://www.ipea.gov.br/portal/index.php?option=com_content&view=article&id=13651&catid=156)"
+  favicon: ""
+  reader-mode: false
+  twitter-card: true
+  open-graph: true
+  navbar:
+    background: "#10607E"
+    search: true
+    right:
+      - href: index.qmd
+        text: "Página inicial"
+      - href: explorar.qmd
+        text: "Explorar"
+      - href: dados.qmd
+        text: "Dados"
+      - href: publicacoes.qmd
+        text: "Publicações"
+      - href: equipe.qmd
+        text: "Equipe"
+
+format:
+  html:
+    theme: [default, styles.scss]
+    css: styles.css
+    toc: true
+    toc-depth: 2
+    toc-title: "Nesta página"

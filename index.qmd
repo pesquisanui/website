@@ -1,0 +1,232 @@
+---
+title: ""
+execute:
+  echo: false
+  warning: false
+  error: false
+---
+
+<script src="https://cdn.lordicon.com/pzdvqjsp.js"></script>
+
+::: column-margin
+![](assets/logo-ipea.png)
+:::
+
+:::{.callout-note appearance="minimal" collapse="true"}
+
+## **Núcleos Urbanos Informais (NUI)** constituem uma categoria abrangente que abriga distintos padrões de ocupação territorial precária e irregular.
+<br>
+De acordo com a [Lei Federal n.º 13.465/2017](http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13465.htm), que atualizou as definições e os procedimentos para a regularização fundiária urbana, NUI é "aquele clandestino, irregular ou no qual não foi possível realizar, por qualquer modo, a titulação de seus ocupantes, ainda que atendida a legislação vigente à época de sua implantação ou regularização".
+
+Para as finalidades desta pesquisa, para ser considerado NUI, é suficiente que, além de ser ocupado por população de baixa renda, assim definida pelo Poder Executivo municipal, o assentamento em tela tenha alguma precariedade, em qualquer grau, seja referente à urbanização, às infraestruturas ou às edificações. A outra condição para considerar um assentamento como NUI é o próprio estatuto jurídico da ocupação da terra, sem algum título que dê aos ocupantes a garantia de posse segura.
+:::
+
+## Sobre a pesquisa
+
+A **Pesquisa de Núcleos Urbanos Informais no Brasil** tem como objetivo desenvolver e aplicar metodologia para identificação e caracterização dos núcleos urbanos informais, compreendendo uma seleção de casos ilustrativos das formas assumidas pelo fenômeno.
+
+O conhecimento da extensão, da localização e das características dos núcleos urbanos informais contribui para a revisão e melhoria das políticas públicas que mirem a efetivação do direito à moradia e do direito à cidade no Brasil.
+
+```{r} 
+# original author: J.J. Allaire
+# src: https://raw.githubusercontent.com/quarto-dev/quarto-web/main/htmltools/carousel.R
+
+library(htmltools)
+library(yaml)
+
+# carousel displays a list of items w/ nav buttons
+carousel <- function(id, duration, items) {
+  index <- -1
+  items <- lapply(items, function(item) {
+    index <<- index + 1
+    carouselItem(item$caption, item$image, item$link, index, duration)
+  })
+
+  indicators <- div(
+    class = "carousel-indicators",
+    tagList(lapply(items, function(item) item$button))
+  )
+  items <- div(
+    class = "carousel-inner",
+    tagList(lapply(items, function(item) item$item))
+  )
+  div(
+    id = id, class = "carousel slide", `data-bs-ride` = "carousel",
+    indicators,
+    items,
+    navButton(id, "prev", "Prevoius"),
+    navButton(id, "next", "Next")
+  )
+}
+
+# carousel item
+carouselItem <- function(caption, image, link, index, interval) {
+  id <- paste0("gallery-carousel-item-", index)
+  button <- tags$button(
+    type = "button",
+    `data-bs-target` = "#gallery-carousel",
+    `data-bs-slide-to` = index,
+    `aria-label` = paste("Slide", index + 1)
+  )
+  if (index == 0) {
+    button <- tagAppendAttributes(button,
+      class = "active",
+      `aria-current` = "true"
+    )
+  }
+  item <- div(
+    class = paste0("carousel-item", ifelse(index == 0, " active", "")),
+    `data-bs-interval` = interval,
+    a(href = link, img(src = image, class = "img-fluid")),
+    div(
+      class = "carousel-caption d-none d-md-block",
+      tags$p(class = "fw-bold", caption)
+    )
+  )
+  list(
+    button = button,
+    item = item
+  )
+}
+
+# nav button
+navButton <- function(targetId, type, text) {
+  tags$button(
+    class = paste0("carousel-control-", type),
+    type = "button",
+    `data-bs-target` = paste0("#", targetId),
+    `data-bs-slide` = type,
+    span(
+      class = paste0("carousel-control-", type, "-icon"),
+      `aria-hidden` = "true"
+    ),
+    span(class = "visually-hidden", text)
+  )
+}
+
+carousel("homepage-carousel", 5000, yaml.load_file("assets/nui.yml"))
+```
+
+## Eixos da pesquisa
+
+::: grid
+::: g-col-2
+<lord-icon
+    src="https://cdn.lordicon.com/vtgwital.json"
+    trigger="hover"
+    colors="primary:#121331,secondary:#10607e"
+    style="width:100%;height:100%">
+</lord-icon>
+:::
+::: g-col-10
+**Pesquisa de campo:** consistiu no mapeamento e caracterização física e territorial dos Núcleos Urbanos Informais nos polos de pesquisa, resultando em um retrato panorâmico da realidade dos assentamentos precários classificados como NUIs.
+:::
+
+::: g-col-2
+<lord-icon
+    src="https://cdn.lordicon.com/jvucoldz.json"
+    trigger="hover"
+    colors="primary:#121331,secondary:#10607e"
+    style="width:100%;height:100%">
+</lord-icon>
+:::
+::: g-col-10
+**Modelagem espacial:** focou no desenvolvimento e aplicação de uma nova metodologia para a identificação de assentamentos precários utilizando dados secundários, abertos e disponíveis para todo o território nacional. Os resultados permitem identificar áreas com maior ou menor probabilidade de presença de Núcleos Urbanos Informais, constituindo planos de informação complementares que podem ser utilizados para subsidiar pesquisas de campo ou analisar levantamentos existentes, de modo a indicar locais prioritários para a vistoria.
+:::
+
+::: g-col-2
+<lord-icon
+    src="https://cdn.lordicon.com/msoeawqm.json"
+    trigger="hover"
+    colors="primary:#121331,secondary:#10607e"
+    style="width:100%;height:100%">
+</lord-icon>
+:::
+::: g-col-10
+**Estudos de caso:** elegeu-se um número reduzido de Núcleos Urbanos Informais para a coleta de informações jurídico-fundiárias, no qual seria viável o aprofundamento de pesquisa cartorial, entre outras fontes. Dessa forma, foi possível reconhecer situações-problema e propor estratégias para seu enfrentamento, com vistas à regularização fundiária desses assentamentos.
+:::
+:::
+
+## Recorte territorial
+
+**O projeto piloto foi aplicado em seis polos** (2019-2021), que são agregações de municípios que têm como referência a divisão regional do Brasil de 2017, do IBGE, especificamente as regiões geográficas imediatas (RGIs). Apesar da limitação espacial, buscou-se alguma forma de representatividade nacional. Dessa forma, previu-se ao menos um polo por grande região do Brasil, tanto em localizações litorâneas como no interior, e que contemplasse, tanto quanto possível, a diversidade dos biomas existentes no país.
+
+::: grid
+::: g-col-8
+```{r}
+library(leaflet)
+library(sf)
+
+data <- readRDS("assets/muns.rds")
+
+leaflet() %>%
+  addProviderTiles(providers$OpenStreetMap.Mapnik,
+                   options = providerTileOptions(minZoom = 3, maxZoom = 12)) %>%
+  addPolygons(data = data,
+              color = "#10607e",
+              stroke = TRUE,
+              label = ~name_muni,
+              opacity = 1,
+              weight = 1,
+              fillOpacity = 0.5) %>%
+  setMaxBounds(lng1 = -30,
+               lat1 = -35, 
+               lng2 = -75,
+               lat2 = 7)
+```
+:::
+
+::: g-col-4
+<font size="-0.1">
+**Polos**
+<br>
+- Belo Horizonte
+<br>
+- Brasília
+<br>
+- Juazeiro do Norte
+<br>
+- Marabá
+<br>
+- Porto Alegre
+<br>
+- Recife
+<br>
+<br>
+</font>
+:::
+:::
+
+## Resultados
+
+::: grid
+::: g-col-4
+<center>
+[<lord-icon
+    src="https://cdn.lordicon.com/zzcjjxew.json"
+    trigger="hover"
+    colors="primary:#121331,secondary:#121331"
+    style="width:90px;height:90px">
+</lord-icon>]()<br>[Explorar]()
+</center>
+:::
+::: g-col-4
+<center>
+[<lord-icon
+    src="https://cdn.lordicon.com/bbnkwdur.json"
+    trigger="morph"
+    style="width:90px;height:90px">
+</lord-icon>]()<br>[Dados]()
+</center>
+:::
+::: g-col-4
+<center>
+[<lord-icon
+    src="https://cdn.lordicon.com/nocovwne.json"
+    trigger="hover"
+    colors="primary:#121331,secondary:#121331"
+    style="width:90px;height:90px">
+</lord-icon>]()<br>[Publicações]()
+</center>
+:::
+:::
