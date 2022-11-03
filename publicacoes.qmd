@@ -1,0 +1,192 @@
+---
+title: "Publicações"
+execute:
+  echo: false
+  warning: false
+  error: false
+---
+
+## Livro
+
+::: grid
+::: g-col-6
+![](assets/livro-capa.png)
+:::
+::: g-col-6
+**NÚCLEOS URBANOS INFORMAIS: abordagens territoriais da irregularidade fundiária e da precariedade habitacional**
+
+*Cleandro Krause e Rosana Denaldi
+(Organizadores)*
+
+[PDF]()
+:::
+:::
+
+## Relatórios
+
+:::{.callout-note appearance="minimal"}
+## Produto 1
+6 de abril de 2020
+<br>
+**Estudo conceitual e metodológico**
+<br>
+*Rosana Denaldi, Paulo Somlanyi Romeiro, André Simionato Castro, Cleandro Henrique Krause, Tatiana Mamede Salum Chaer, Mariana Roberti Bomtempo*
+<br>
+[PDF]()
+:::
+
+:::{.callout-note appearance="minimal"}
+## Produto 2
+11 de setembro de 2020
+<br>
+**Tipologia das formas assumidas pelos núcleos urbanos informais: desenvolvimento metodológico para sua identificação e classificação**
+<br>
+*Flávia da Fonseca Feitosa, Gilmara Gonçalves, Guilherme Frizzi Galdino da Silva, Miriam Francisca Rodrigues Couto, Pedro Reis Simões, Cleandro Henrique Krause*
+<br>
+[PDF]() -- [Apêndices]()
+:::
+
+:::{.callout-note appearance="minimal"}
+## Produto 3
+18 de setembro de 2020
+<br>
+**Definição de pesquisa de campo e estudo de caso de núcleos urbanos informais**
+<br>
+*André Simionato Castro, Juliana Gomes Petrarolli, Mariana Roberti Bomtempo, Miriam Francisca Rodrigues Couto, Paulo Somlanyi Romeiro, Tatiana Mamede Salum Chaer, Rosana Denaldi, Cleandro Henrique Krause*
+<br>
+[PDF]() -- [Apêndices]()
+:::
+
+:::{.callout-note appearance="minimal"}
+## Produto 4
+25 de junho de 2021
+<br>
+**Relatório de levantamento de dados e aprofundamento do conhecimento sobre os aspectos jurídicos e fundiários em uma seleção de núcleos urbanos informais**
+<br>
+*Paulo Somlanyi Romeiro, André Simionato Castro, Fernanda Carolina Vieira da Costa, Cleandro Krause, Rosana Denaldi, Tatiana Mamede Salum Chaer*
+<br>
+[PDF]() -- [Apêndices]()
+:::
+
+:::{.callout-note appearance="minimal"}
+## Produto 5
+15 de abril de 2021
+<br>
+**Relatório parcial de pesquisa de campo contendo aprofundamento do conhecimento sobre os aspectos físicos e territoriais dos NUI no Polo Brasília**
+<br>
+*Giuliana de Freitas, Valéria Barroso da Silveira, Miriam Francisca Rodrigues Couto*
+<br>
+[PDF]()
+:::
+
+:::{.callout-note appearance="minimal"}
+## Produto 6
+16 de abril de 2021
+<br>
+**Relatório parcial de pesquisa de campo contendo aprofundamento do conhecimento sobre os aspectos físicos e territoriais dos NUI no Polo Belo Horizonte**
+<br>
+*Raquel de Mattos Viana, Marcela Rodrigues Santos, Thaís Pires Rubioli, Mariana Roberti Bomtempo*
+<br>
+[PDF]()
+:::
+
+:::{.callout-note appearance="minimal"}
+## Produto 7
+13 de abril de 2021
+<br>
+**Relatório parcial de pesquisa de campo contendo aprofundamento do conhecimento sobre os aspectos físicos e territoriais dos NUI no Polo Recife**
+<br>
+*Cátia Wanderley Lubambo, Fernanda Carolina Vieira da Costa, Manoela Guedes Ferreira Jordão de Vasconcelos, Tiago Gonçalves da Silva, Mariana Roberti Bomtempo*
+<br>
+[PDF]()
+:::
+
+:::{.callout-note appearance="minimal"}
+## Produto 8
+14 de abril de 2021
+<br>
+**Relatório parcial de pesquisa de campo contendo aprofundamento do conhecimento sobre os aspectos físicos e territoriais dos NUI no Polo Porto Alegre**
+<br>
+*Heleniza Ávila Campos, Lívia Salomão Piccinini, Elisa Escosteguy Utzig, Fernanda Balestro, Bruno Gallina, Tatiana Mamede Salum Chaer*
+<br>
+[PDF]() -- [Apêndices]()
+:::
+
+:::{.callout-note appearance="minimal"}
+## Produto 9
+15 de abril de 2021
+<br>
+**Relatório parcial de pesquisa de campo contendo aprofundamento do conhecimento sobre os aspectos físicos e territoriais dos NUI no Polo Marabá**
+<br>
+*Ana Carolina Campos de Melo, Gabriel Moraes de Outeiro, Rafael Gonçalves Gumiero, Sergio Moreno Redón, Tatiana Mamede Salum Chaer*
+<br>
+[PDF]()
+:::
+
+:::{.callout-note appearance="minimal"}
+## Produto 10
+12 de abril de 2021
+<br>
+**Relatório parcial de pesquisa de campo contendo aprofundamento do conhecimento sobre os aspectos físicos e territoriais dos NUI no Polo Juazeiro do Norte**
+<br>
+*Alexandrina Saldanha Sobreira de Moura, David Melo Van Den Brule, Kaiena Thyelle Malaquias, Miriam Francisca Rodrigues Couto*
+<br>
+[PDF]()
+:::
+
+:::{.callout-note appearance="minimal"}
+## Produto 11
+11 de agosto de 2021
+<br>
+**Relatório de consolidação das pesquisas de campo sobre aspectos físicos e territoriais de núcleos urbanos informais**
+<br>
+*Juliana Gomes Petrarolli, Rosana Denaldi, Cleandro Krause, Flávia da Fonseca Feitosa, Gilmara Gonçalves, Luis Felipe Bortolatto da Cunha, Mariana Roberti Bomtempo, Miriam Francisca Rodrigues Couto, Pedro Reis Simões, Tatiana Mamede Salum Chaer*
+<br>
+[PDF]()
+:::
+
+:::{.callout-note appearance="minimal"}
+## Produto 12
+23 de agosto de 2021
+<br>
+**Relatório de Caracterização, Tipologias e Modelos para Identificação de Núcleos Urbanos Informais**
+<br>
+*Flávia da Fonseca Feitosa, Gilmara Gonçalves, Luis Felipe Bortolatto da Cunha, Pedro Reis Simões, Cleandro Krause, Juliana Gomes Petrarolli*
+<br>
+[PDF]() -- [Apêndices]()
+:::
+
+:::{.callout-note appearance="minimal"}
+## Produto 13
+21 de fevereiro de 2022
+<br>
+**Relatório de recomendações de procedimentos para extensão da pesquisa**
+<br>
+*Cleandro Krause, Marco Aurélio Costa, Fernanda Carolina Vieira da Costa, Flávia da Fonseca Feitosa, Juliana Gomes Petrarolli, Paulo Somlanyi Romeiro, Rosana Denaldi*
+<br>
+[PDF]()
+:::
+
+## Outras publicações
+
+:::{.callout-note appearance="minimal"}
+## Nota Técnica (Dirur)
+8 de junho de 2022
+<br>
+**Análise preliminar da seleção de propostas do Programa de Regularização Fundiária e Melhoria Habitacional, integrante do Programa Casa Verde e Amarela**
+<br>
+*Renato Balbim, Cleandro Krause*
+<br>
+[PDF](http://repositorio.ipea.gov.br/bitstream/11058/11202/2/NT_35_Dirur_Analise_Preliminar.pdf)
+:::
+
+:::{.callout-note appearance="minimal"}
+## Boletim Regional, Urbano e Ambiental (Dirur)
+2 de março de 2020
+<br>
+**Irregularidade fundiária e urbanística no Brasil : bases para um projeto de pesquisa**
+<br>
+*Cleandro Krause*
+<br>
+[PDF](http://repositorio.ipea.gov.br/bitstream/11058/9693/1/BRUA21_NotaPesquisa3.pdf)
+:::

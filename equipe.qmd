@@ -1,0 +1,97 @@
+---
+title: "Equipe"
+---
+
+## Coordenação
+
+[Cleandro Henrique Krause](https://www.ipea.gov.br/portal/pesquisadores-ipea/571-cleandro-henrique-krause) (titular) -- Técnico de Planejamento e Pesquisa da Diretoria de Estudos e Políticas Regionais, Urbanas e Ambientais (Dirur)-Ipea
+
+[Marco Aurélio Costa](https://www.ipea.gov.br/portal/pesquisadores-ipea/632-marco-aurelio-costa) (suplente) -- Técnico de Planejamento e Pesquisa da Dirur-Ipea
+
+## Bolsistas e colaboradores
+
+Alexandrina Saldanha Sobreira de Moura -- FUNDAJ / Ipea (PNPD)
+
+Ana Carolina Campos de Melo -- Ipea (PNPD)
+
+André Simionato Castro -- Ipea (PNPD)
+
+Bruno Gallina -- UFRGS
+
+Cátia Wanderley Lubambo -- FUNDAJ / Ipea (PNPD)
+
+David Melo Van Den Brule -- Ipea (PNPD)
+
+Elisa Escosteguy Utzig -- Ipea (PNPD)
+
+Fernanda Balestro -- Ipea (PNPD)
+
+Fernanda Carolina Vieira da Costa -- Ipea (PNPD)
+
+Flávia da Fonseca Feitosa -- UFABC / Ipea (PNPD)
+
+Gilmara Gonçalves -- Ipea (PNPD)
+
+Gabriel Moraes de Outeiro -- UNIFESSPA / Ipea (PNPD) 
+
+Giuliana de Freitas -- Ipea (PNPD)
+
+Guilherme Frizzi Galdino da Silva -- Ipea (PNPD)
+
+Heleniza Ávila Campos -- UFRGS / Ipea (PNPD)
+
+Juliana Gomes Petrarolli -- Ipea (PNPD)
+
+Kaiena Thyelle Malaquias -- FUNDAJ
+
+Livia Salomão Piccinini -- UFRGS
+
+Luis Felipe Bortolatto da Cunha -- Ipea (PNPD)
+
+Manoela Guedes Ferreira Jordão de Vasconcelos -- Ipea (PNPD)
+
+Marcela Rodrigues Santos -- Ipea (PNPD)
+
+Mariana Roberti Bomtempo -- Ipea (PNPD)
+
+Miriam Francisca Rodrigues Couto -- Ipea (PNPD)
+
+Paulo Somlanyi Romeiro -- Ipea (PNPD)
+
+Pedro Reis Simões -- Ipea (PNPD)
+
+Rafael Gonçalves Gumiero -- UNIFESSPA
+
+Raquel de Mattos Viana -- FJP / Ipea (PNPD)
+
+Rosana Denaldi -- UFABC / Ipea (PNPD)
+
+Sergio Moreno Redón -- UNIFESSPA / Ipea (PNPD)
+
+Tatiana Mamede Salum Chaer -- Ipea (PNPD)
+
+Thaís Pires Rubioli -- Ipea (PNPD)
+
+Tiago Gonçalves da Silva -- Ipea (PNPD)
+
+Valéria Barroso da Silveira -- Ipea (PNPD)
+
+## Parceiros
+
+::: {layout="[[100], [30,-3,30,-3,30], [1,1,1]]" layout-valign="center"}
+
+[![](assets/logo-snh0.png)](https://www.gov.br/mdr/pt-br/composicao/secretarias-nacionais/habitacao)
+
+[![](assets/logo-ufabc.png){width=200}](https://www.ufabc.edu.br/)
+
+[![](assets/logo-ufrgs.png){width=200}](http://www.ufrgs.br/ufrgs/inicial)
+
+[![](assets/logo-unifesspa.png){width=200}](https://www.unifesspa.edu.br/)
+
+[![](assets/logo-fjp.png){width=200}](http://fjp.mg.gov.br/)
+
+[![](assets/logo-fundaj.jpg){width=200}](https://www.gov.br/fundaj/pt-br)
+
+[![](assets/logo-seduh.png){width=200}](https://www.seduh.df.gov.br/)
+
+:::

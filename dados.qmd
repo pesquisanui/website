@@ -1,0 +1,70 @@
+---
+title: "Download dos dados"
+---
+
+## Mapeamento e caracterização
+
+A Pesquisa NUI compreendeu o desenvolvimento e aplicação de uma metodologia para mapeamento e caracterização dos Núcleos Urbanos Informais, realizada por meio de uma combinação de estratégias: consultas a agentes municipais, verificações remotas com utilização de imagens de satélite, utilização de dados secundários, e em alguns casos, visitas de campo (vistorias).
+
+```{r}
+#| echo: false
+library(DT)
+tb <- data.frame(
+  Polo = c("Belo Horizonte",
+             "Brasília",
+             "Juazeiro do Norte",
+             "Marabá",
+             "Porto Alegre",
+             "Recife"),
+  Download = c("<a href=''>Shapefile</a> · <a href=''>Excel</a> · <a href=''>csv</a>",
+               "<a href=''>Shapefile</a> · <a href=''>Excel</a> · <a href=''>csv</a>",
+               "<a href=''>Shapefile</a> · <a href=''>Excel</a> · <a href=''>csv</a>",
+               "<a href=''>Shapefile</a> · <a href=''>Excel</a> · <a href=''>csv</a>",
+               "<a href=''>Shapefile</a> · <a href=''>Excel</a> · <a href=''>csv</a>",
+               "<a href=''>Shapefile</a> · <a href=''>Excel</a> · <a href=''>csv</a>")
+)
+DT::datatable(tb,
+          escape = FALSE,
+          rownames = FALSE,
+          filter = "none",
+          autoHideNavigation = TRUE,
+          options = list(dom = "t",
+                         ordering = FALSE,
+                         pageLength = 6,
+                         columnDefs = list(list(width = '50%', targets = list(1))))) #|>
+  #DT::formatStyle(columns = c(1, 2), fontSize = '75%')
+```
+
+:::{.callout-important}
+## Atenção
+
+Essa base de dados não possui validade como cadastro municipal. Consulte o levantamento oficial de núcleos urbanos informais com as secretarias municipais.
+:::
+
+```{r}
+#| echo: false
+library(DT)
+tb <- data.frame(
+  'Arquivos suplementares' = c("Dicionário de dados",
+             "Ficha de campo",
+             "Tutorial para preenchimento da Ficha de Campo e conceitos utilizados"),
+  Download = c("<a href=''>PDF</a>",
+               "<a href=''>PDF</a>",
+               "<a href=''>PDF</a>")
+)
+datatable(tb,
+          escape = FALSE,
+          rownames = FALSE,
+          filter = "none",
+          autoHideNavigation = TRUE,
+          options = list(dom = "t",
+                         ordering = FALSE,
+                         pageLength = 6,
+                         columnDefs = list(list(width = '15%', targets = list(1)))))
+```
+
+## Superfícies de probabilidade
+
+Com o intuito de auxiliar na identificação de Núcleos Urbanos Informais, foi desenvolvida uma metodologia que indica a probabilidade de presença de NUI nos territórios. Essas superfícies de probabilidade podem ser utilizadas como um plano adicional de informação para subsidiar trabalhos de campo e/ou para análise da qualidade de bases de dados existentes. Os modelos foram construídos a partir da integração de dados secundários de fontes distintas (Censo Demográfico 2010, Cadastro Único etc.) em uma grade celular com 100m de lado (compatível com a Grade Estatística do IBGE).
+
+[Download em breve](#superfícies-de-probabilidade)

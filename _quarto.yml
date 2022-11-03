@@ -25,7 +25,9 @@ website:
         text: "Publicações"
       - href: equipe.qmd
         text: "Equipe"
-
+      - href: "https://github.com/pesquisanui"
+        icon: github
+        
 format:
   html:
     theme: [default, styles.scss]
