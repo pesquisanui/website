@@ -23,4 +23,4 @@ Os arquivos estão organizados da seguinte forma:
       [Documentação]
     └── README.md                   
 
-A versão atual do website está publicada na pasta `docs`, utilizando os arquivos hospedados na raiz e `assets`.
+A versão atual do website está publicada na pasta `docs`. Recomendamos não editar os arquivos hospedados nessa pasta -- após a renderização utilizando o Quarto, esses arquivos são substituídos e todas as alterações feitas nos arquivos dessa pasta são perdidas. O desenvolvimento do website deve ser feito utilizando os arquivos hospedados na raíz e pasta `assets` (todos os arquivos fora da pasta `docs`).
