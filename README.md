@@ -5,8 +5,8 @@ O website foi desenvolvido utilizando o sistema de publicação científica e t�
 Os arquivos estão organizados da seguinte forma:
 
     .
-    ├── assets                   # Arquivos adicionais -- figuras, dados, metadados
-    ├── docs                    # Website após renderização (NÃO EDITAR)
+    ├── assets                   # Arquivos adicionais (figuras, dados, metadados)
+    ├── docs                    # Website após renderização 
       [Configuração]
     ├── .gitignore
     ├── _quarto.yml                     # Configurações do website
@@ -23,4 +23,4 @@ Os arquivos estão organizados da seguinte forma:
       [Documentação]
     └── README.md                   
 
-A versão atual do website está publicada na pasta `docs`. Recomendamos não editar os arquivos hospedados nessa pasta -- após a renderização utilizando o Quarto, esses arquivos são substituídos e todas as alterações feitas nos arquivos dessa pasta são perdidas. O desenvolvimento do website deve ser feito utilizando os arquivos hospedados na raíz e pasta `assets` (todos os arquivos fora da pasta `docs`).
+A versão atual do website está publicada na pasta `docs`. Recomendamos não editar os arquivos hospedados nessa pasta – após a renderização utilizando o Quarto, esses arquivos são substituídos e todas as alterações feitas neles são perdidas. O desenvolvimento do website deve ser feito utilizando os arquivos hospedados na raíz e pasta `assets` (ou seja, todos os arquivos fora da pasta `docs`).
