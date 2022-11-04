@@ -50,7 +50,8 @@ tb <- data.frame(
              "Tutorial para preenchimento da Ficha de Campo e conceitos utilizados"),
   Download = c("<a href=''>PDF</a>",
                "<a href=''>PDF</a>",
-               "<a href=''>PDF</a>")
+               "<a href=''>PDF</a>"),
+  check.names = FALSE
 )
 datatable(tb,
           escape = FALSE,
