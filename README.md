@@ -4,23 +4,23 @@ O website foi desenvolvido utilizando o sistema de publicação científica e t�
 
 Os arquivos estão organizados da seguinte forma:
 
-> .
-├── assets                   # Arquivos adicionais -- figuras, dados, metadados
-├── docs                    # Website após renderização (NÃO EDITAR)
-  [Configuração]
-├── .gitignore
-├── _quarto.yml                     # Configurações do website
-├── styles.css                    # Configurações adicionais
-├── styles.scss                   # Configurações adicionais
-├── website.Rproj
-  [Páginas]
-├── index.qmd                   # Página inicial
-├── explorar.qmd                   # Explorar
-├── dados.qmd                   # Dados
-├── publicacoes.qmd                   # Publicações
-├── equipe.qmd                   # Equipe
-├── 404.qmd                   # 404
-  [Documentação]
-└── README.md                   
+    .
+    ├── assets                   # Arquivos adicionais -- figuras, dados, metadados
+    ├── docs                    # Website após renderização (NÃO EDITAR)
+      [Configuração]
+    ├── .gitignore
+    ├── _quarto.yml                     # Configurações do website
+    ├── styles.css                    # Configurações adicionais
+    ├── styles.scss                   # Configurações adicionais
+    ├── website.Rproj
+      [Páginas]
+    ├── index.qmd                   # Página inicial
+    ├── explorar.qmd                   # Explorar
+    ├── dados.qmd                   # Dados
+    ├── publicacoes.qmd                   # Publicações
+    ├── equipe.qmd                   # Equipe
+    ├── 404.qmd                   # 404
+      [Documentação]
+    └── README.md                   
 
 A versão atual do website está publicada na pasta `docs`, utilizando os arquivos hospedados na raiz e `assets`.
