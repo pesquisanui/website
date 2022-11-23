@@ -78,20 +78,20 @@ Valéria Barroso da Silveira -- Ipea (PNPD)
 
 ## Parceiros
 
-::: {layout="[[100], [30,-3,30,-3,30], [1,1,1]]" layout-valign="center"}
+::: {layout="[[100], [30,30,30], [1,1,1]]" layout-valign="center"}
 
-[![](assets/logo-snh0.png)](https://www.gov.br/mdr/pt-br/composicao/secretarias-nacionais/habitacao)
+[![](assets/logo-snh.png)](https://www.gov.br/mdr/pt-br/composicao/secretarias-nacionais/habitacao){target="_blank"}
 
-[![](assets/logo-ufabc.png){width=200}](https://www.ufabc.edu.br/)
+[![](assets/logo-ufabc.png){width=200}](https://www.ufabc.edu.br/){target="_blank"}
 
-[![](assets/logo-ufrgs.png){width=200}](http://www.ufrgs.br/ufrgs/inicial)
+[![](assets/logo-ufrgs.png){width=200}](http://www.ufrgs.br/ufrgs/inicial){target="_blank"}
 
-[![](assets/logo-unifesspa.png){width=200}](https://www.unifesspa.edu.br/)
+[![](assets/logo-fjp.png){width=200}](http://fjp.mg.gov.br/){target="_blank"}
 
-[![](assets/logo-fjp.png){width=200}](http://fjp.mg.gov.br/)
+[![](assets/logo-unifesspa.png){width=200}](https://www.unifesspa.edu.br/){target="_blank"}
 
-[![](assets/logo-fundaj.jpg){width=200}](https://www.gov.br/fundaj/pt-br)
+[![](assets/logo-fundaj.png){width=200}](https://www.gov.br/fundaj/pt-br){target="_blank"}
 
-[![](assets/logo-seduh.png){width=200}](https://www.seduh.df.gov.br/)
+[![](assets/logo-seduh.png){width=200}](https://www.seduh.df.gov.br/){target="_blank"}
 
 :::

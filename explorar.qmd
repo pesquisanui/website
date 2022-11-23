@@ -2,7 +2,21 @@
 title: ""
 format: 
   html:
-    page-layout: full
+    page-layout: custom
 ---
 
-<iframe src="https://luisfelipebc.shinyapps.io/app_new/" style="width:100%; height:1100px;" frameborder="0"></iframe>
+<iframe src="https://luisfelipebc.shinyapps.io/dashb/" style="width:100%; height: calc(100vh - 129.75px);" frameborder="0"></iframe>
+
+<style>
+ @media print{
+       .page-footer{
+           display:none;
+       }
+    }
+</style>
+
+<script type='javascript'>
+$(document).ready(function(){
+    $("footer").hide();
+});
+</script>

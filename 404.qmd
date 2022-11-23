@@ -3,5 +3,3 @@ title: "Página não encontrada"
 ---
 
 A página requisitada não foi encontrada.
-
-Você pode usar a ferramenta de busca no canto superior direito para encontrar o que deseja.

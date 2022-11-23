@@ -1,17 +1,28 @@
   
-- caption: "Marabá, PA"
-  image: "./assets/NUI-PA-Maraba-Folha-01-Foto4.jpg" 
+- caption: "© Sérgio Redon"
+  image: "./assets/Foto_SergioRedon5.jpg" 
   link: ""
 
-- caption: "Crato, CE"
-  image: "./assets/NUI-CE-Crato-Matadouro.jpg" 
+- caption: "© Raphael Bischof"
+  image: "./assets/Foto_RaphaelBischof2.jpg" 
+  link: ""
+
+- caption: "© David van den Brule"
+  image: "./assets/Foto_DavidMelovandenBrule1.jpg" 
+  link: ""
+
+- caption: "© Fernanda Balestro"
+  image: "./assets/Foto_FernandaBalestro1.jpg" 
   link: ""
   
-- caption: "Juazeiro do Norte, CE"
-  image: "./assets/NUI-CE-Juazeiro-do-Norte-Triangulo.jpg" 
+- caption: "© Sérgio Redon"
+  image: "./assets/Foto_SergioRedon1.jpg" 
   link: ""
 
-- caption: "Barra do Ribeiro, RS"
-  image: "./assets/NUI-RS-Barra-do-Ribeiro-Rua-Santa-Isabel-Foto1.jpg" 
+- caption: "© Raphael Bischof"
+  image: "./assets/Foto_RaphaelBischof1.jpg" 
   link: ""
 
+- caption: "© David van den Brule"
+  image: "./assets/Foto_DavidMelovandenBrule2.jpg" 
+  link: ""

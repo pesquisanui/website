@@ -1,32 +1,13 @@
 ---
 title: ""
-execute:
-  echo: false
-  warning: false
-  error: false
+format: 
+  html:
+    page-layout: article
 ---
 
 <script src="https://cdn.lordicon.com/pzdvqjsp.js"></script>
 
-::: column-margin
-![](assets/logo-ipea.png)
-:::
-
-:::{.callout-note appearance="minimal" collapse="true"}
-
-## **Núcleos Urbanos Informais (NUI)** constituem uma categoria abrangente que abriga distintos padrões de ocupação territorial precária e irregular.
-<br>
-De acordo com a [Lei Federal n.º 13.465/2017](http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13465.htm), que atualizou as definições e os procedimentos para a regularização fundiária urbana, NUI é "aquele clandestino, irregular ou no qual não foi possível realizar, por qualquer modo, a titulação de seus ocupantes, ainda que atendida a legislação vigente à época de sua implantação ou regularização".
-
-Para as finalidades desta pesquisa, para ser considerado NUI, é suficiente que, além de ser ocupado por população de baixa renda, assim definida pelo Poder Executivo municipal, o assentamento em tela tenha alguma precariedade, em qualquer grau, seja referente à urbanização, às infraestruturas ou às edificações. A outra condição para considerar um assentamento como NUI é o próprio estatuto jurídico da ocupação da terra, sem algum título que dê aos ocupantes a garantia de posse segura.
-:::
-
-## Sobre a pesquisa
-
-A **Pesquisa de Núcleos Urbanos Informais no Brasil** tem como objetivo desenvolver e aplicar metodologia para identificação e caracterização dos núcleos urbanos informais, compreendendo uma seleção de casos ilustrativos das formas assumidas pelo fenômeno.
-
-O conhecimento da extensão, da localização e das características dos núcleos urbanos informais contribui para a revisão e melhoria das políticas públicas que mirem a efetivação do direito à moradia e do direito à cidade no Brasil.
-
+::: {.column-screen}
 ```{r} 
 # original author: J.J. Allaire
 # src: https://raw.githubusercontent.com/quarto-dev/quarto-web/main/htmltools/carousel.R
@@ -41,7 +22,7 @@ carousel <- function(id, duration, items) {
     index <<- index + 1
     carouselItem(item$caption, item$image, item$link, index, duration)
   })
-
+  
   indicators <- div(
     class = "carousel-indicators",
     tagList(lapply(items, function(item) item$button))
@@ -54,7 +35,7 @@ carousel <- function(id, duration, items) {
     id = id, class = "carousel slide", `data-bs-ride` = "carousel",
     indicators,
     items,
-    navButton(id, "prev", "Prevoius"),
+    navButton(id, "prev", "Previous"),
     navButton(id, "next", "Next")
   )
 }
@@ -70,8 +51,8 @@ carouselItem <- function(caption, image, link, index, interval) {
   )
   if (index == 0) {
     button <- tagAppendAttributes(button,
-      class = "active",
-      `aria-current` = "true"
+                                  class = "active",
+                                  `aria-current` = "true"
     )
   }
   item <- div(
@@ -79,7 +60,7 @@ carouselItem <- function(caption, image, link, index, interval) {
     `data-bs-interval` = interval,
     a(href = link, img(src = image, class = "img-fluid")),
     div(
-      class = "carousel-caption d-none d-md-block",
+      class = "carousel-caption",
       tags$p(class = "fw-bold", caption)
     )
   )
@@ -106,6 +87,28 @@ navButton <- function(targetId, type, text) {
 
 carousel("homepage-carousel", 5000, yaml.load_file("assets/nui.yml"))
 ```
+:::
+
+::: column-margin
+<p style="text-align:right;">
+<img src="assets/logo-ipea.png" style="max-width:200px">
+</p>
+:::
+
+## Sobre a pesquisa
+
+A **Pesquisa de Núcleos Urbanos Informais no Brasil** tem como objetivo desenvolver e aplicar metodologia para identificação e caracterização dos núcleos urbanos informais, compreendendo uma seleção de casos ilustrativos das formas assumidas pelo fenômeno.
+
+O conhecimento da extensão, da localização e das características dos núcleos urbanos informais contribui para a revisão e melhoria das políticas públicas que mirem a efetivação do direito à moradia e do direito à cidade no Brasil.
+
+:::{.callout-note appearance="minimal" collapse="true"}
+
+## **Núcleos Urbanos Informais (NUI)** constituem uma categoria abrangente que abriga distintos padrões de ocupação territorial precária e irregular.
+<br>
+De acordo com a [Lei Federal n.º 13.465/2017](http://www.planalto.gov.br/ccivil_03/_ato2015-2018/2017/lei/l13465.htm), que atualizou as definições e os procedimentos para a regularização fundiária urbana, NUI é "aquele clandestino, irregular ou no qual não foi possível realizar, por qualquer modo, a titulação de seus ocupantes, ainda que atendida a legislação vigente à época de sua implantação ou regularização".
+
+Para as finalidades desta pesquisa, para ser considerado NUI, é suficiente que, além de ser ocupado por população de baixa renda, assim definida pelo Poder Executivo municipal, o assentamento em tela tenha alguma precariedade, em qualquer grau, seja referente à urbanização, às infraestruturas ou às edificações. A outra condição para considerar um assentamento como NUI é o próprio estatuto jurídico da ocupação da terra, sem algum título que dê aos ocupantes a garantia de posse segura.
+:::
 
 ## Eixos da pesquisa
 
@@ -157,7 +160,7 @@ carousel("homepage-carousel", 5000, yaml.load_file("assets/nui.yml"))
 library(leaflet)
 library(sf)
 
-data <- readRDS("assets/muns.rds")
+data <- readRDS("dados/muns.rds")
 
 leaflet() %>%
   addProviderTiles(providers$OpenStreetMap.Mapnik,
@@ -207,7 +210,7 @@ leaflet() %>%
     trigger="hover"
     colors="primary:#121331,secondary:#121331"
     style="width:90px;height:90px">
-</lord-icon>]()<br>[Explorar]()
+</lord-icon>](/explorar.html)<br>[Explorar](/explorar.html)
 </center>
 :::
 ::: g-col-4
@@ -216,7 +219,7 @@ leaflet() %>%
     src="https://cdn.lordicon.com/bbnkwdur.json"
     trigger="morph"
     style="width:90px;height:90px">
-</lord-icon>]()<br>[Dados]()
+</lord-icon>](/dados.html)<br>[Dados](/dados.html)
 </center>
 :::
 ::: g-col-4
@@ -226,7 +229,7 @@ leaflet() %>%
     trigger="hover"
     colors="primary:#121331,secondary:#121331"
     style="width:90px;height:90px">
-</lord-icon>]()<br>[Publicações]()
+</lord-icon>](/publicacoes.html)<br>[Publicações](/publicacoes.html)
 </center>
 :::
 :::

@@ -1,9 +1,30 @@
-/*-- scss:defaults --*/
+.navbar-title{
+}
 
-/*-- scss:rules --*/
 .carousel-caption {
-    top: auto;
-    left: 5%;
-    right: 5%;
+    font-size: 50%;
+    right: 5px;
+    bottom: -40px;
     text-align: right;
+}
+
+/*-- NAVBAR --*/
+
+.navbar {
+  border-bottom:1px solid #dee2e6;
+}
+        
+.navbar-nav a {
+  float: left;
+  display: block;
+  padding: 0.5rem;
+  border-bottom: 3px solid transparent;
+}
+
+.navbar-nav a:hover {
+  border-bottom: 3px solid #10607E;
+}
+
+.navbar-nav a.active {
+  border-bottom: 3px solid #10607E;
 }

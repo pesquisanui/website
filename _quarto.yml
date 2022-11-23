@@ -3,20 +3,23 @@ project:
   output-dir: docs
 
 website:
-  title: "Pesquisa de **Núcleos Urbanos Informais**"
+  title: "Pesquisa de Núcleos Urbanos Informais"
   site-url: "https://pesquisanui.github.io/website/"
-#  lang: pt
-  page-footer: "Todo o conteúdo deste site está publicado sob a Licença Creative Commons Atribuição 2.5 Brasil.<br />Ipea - Instituto de Pesquisa Econômica Aplicada<br />[Política de Privacidade](https://www.ipea.gov.br/portal/images/stories/PDFs/211222_declaracao_privacidade_dados_ipea.pdf)<br />[Expediente – Assessoria de Imprensa e Comunicação](https://www.ipea.gov.br/portal/index.php?option=com_content&view=article&id=13651&catid=156)"
-  favicon: ""
+  favicon: "assets/logo-ipea-favicon.png"
   reader-mode: false
-  twitter-card: true
-  open-graph: true
+  page-footer: 
+    center: "Todo o conteúdo deste site está publicado sob a Licença Creative Commons Atribuição 2.5 Brasil<br>© 2022 Instituto de Pesquisa Econômica Aplicada (Ipea)" #[Política de Privacidade](https://www.ipea.gov.br/portal/images/stories/PDFs/211222_declaracao_privacidade_dados_ipea.pdf)<br />[Expediente – Assessoria de Imprensa e Comunicação](https://www.ipea.gov.br/portal/index.php?option=com_content&view=article&id=13651&catid=156)"
+    border: true
   navbar:
-    background: "#10607E"
+    title: "**PESQUISA DE <br>NÚCLEOS URBANOS INFORMAIS**"
+    background: "#fafafa" #"#fafafa"
+    foreground: "#10607E" #"#000000"
+    border: true
     search: true
+    pinned: true
     right:
       - href: index.qmd
-        text: "Página inicial"
+        text: "<nobr>Página inicial</nobr>"
       - href: explorar.qmd
         text: "Explorar"
       - href: dados.qmd
@@ -27,6 +30,7 @@ website:
         text: "Equipe"
       - href: "https://github.com/pesquisanui"
         icon: github
+#        text: "<nobr>GitHub</nobr>"
         
 format:
   html:
@@ -35,3 +39,9 @@ format:
     toc: true
     toc-depth: 2
     toc-title: "Nesta página"
+    
+execute:
+  echo: false
+  warning: false
+  message: false
+  error: false

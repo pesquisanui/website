@@ -10,15 +10,17 @@ execute:
 
 ::: grid
 ::: g-col-6
-![](assets/livro-capa.png)
+![](assets/livro1.jpg)
 :::
 ::: g-col-6
+8 de novembro de 2022
+
 **NÚCLEOS URBANOS INFORMAIS: abordagens territoriais da irregularidade fundiária e da precariedade habitacional**
 
 *Cleandro Krause e Rosana Denaldi
 (Organizadores)*
 
-[PDF]()
+[PDF](http://repositorio.ipea.gov.br/handle/11058/11549){target="_blank"}
 :::
 :::
 
@@ -32,7 +34,7 @@ execute:
 <br>
 *Rosana Denaldi, Paulo Somlanyi Romeiro, André Simionato Castro, Cleandro Henrique Krause, Tatiana Mamede Salum Chaer, Mariana Roberti Bomtempo*
 <br>
-[PDF]()
+[PDF](publicacoes/PNUI_Produto_1.pdf){target="_blank"}
 :::
 
 :::{.callout-note appearance="minimal"}
@@ -43,7 +45,7 @@ execute:
 <br>
 *Flávia da Fonseca Feitosa, Gilmara Gonçalves, Guilherme Frizzi Galdino da Silva, Miriam Francisca Rodrigues Couto, Pedro Reis Simões, Cleandro Henrique Krause*
 <br>
-[PDF]() -- [Apêndices]()
+[PDF](publicacoes/PNUI_Produto_2.pdf){target="_blank"} -- [Apêndices](publicacoes/PNUI_Produto_2_Apendices.pdf){target="_blank"}
 :::
 
 :::{.callout-note appearance="minimal"}
@@ -54,7 +56,7 @@ execute:
 <br>
 *André Simionato Castro, Juliana Gomes Petrarolli, Mariana Roberti Bomtempo, Miriam Francisca Rodrigues Couto, Paulo Somlanyi Romeiro, Tatiana Mamede Salum Chaer, Rosana Denaldi, Cleandro Henrique Krause*
 <br>
-[PDF]() -- [Apêndices]()
+[PDF](publicacoes/PNUI_Produto_3.pdf){target="_blank"} -- [Apêndices](publicacoes/PNUI_Produto_3_Apendices.pdf){target="_blank"}
 :::
 
 :::{.callout-note appearance="minimal"}
@@ -65,7 +67,7 @@ execute:
 <br>
 *Paulo Somlanyi Romeiro, André Simionato Castro, Fernanda Carolina Vieira da Costa, Cleandro Krause, Rosana Denaldi, Tatiana Mamede Salum Chaer*
 <br>
-[PDF]() -- [Apêndices]()
+[PDF](publicacoes/PNUI_Produto_4.pdf){target="_blank"} -- [Apêndices](publicacoes/PNUI_Produto_4_Apendices.pdf){target="_blank"}
 :::
 
 :::{.callout-note appearance="minimal"}
@@ -76,7 +78,7 @@ execute:
 <br>
 *Giuliana de Freitas, Valéria Barroso da Silveira, Miriam Francisca Rodrigues Couto*
 <br>
-[PDF]()
+[PDF](publicacoes/PNUI_Produto_5.pdf){target="_blank"}
 :::
 
 :::{.callout-note appearance="minimal"}
@@ -87,7 +89,7 @@ execute:
 <br>
 *Raquel de Mattos Viana, Marcela Rodrigues Santos, Thaís Pires Rubioli, Mariana Roberti Bomtempo*
 <br>
-[PDF]()
+[PDF](publicacoes/PNUI_Produto_6.pdf){target="_blank"}
 :::
 
 :::{.callout-note appearance="minimal"}
@@ -98,7 +100,7 @@ execute:
 <br>
 *Cátia Wanderley Lubambo, Fernanda Carolina Vieira da Costa, Manoela Guedes Ferreira Jordão de Vasconcelos, Tiago Gonçalves da Silva, Mariana Roberti Bomtempo*
 <br>
-[PDF]()
+[PDF](publicacoes/PNUI_Produto_7.pdf){target="_blank"}
 :::
 
 :::{.callout-note appearance="minimal"}
@@ -109,7 +111,7 @@ execute:
 <br>
 *Heleniza Ávila Campos, Lívia Salomão Piccinini, Elisa Escosteguy Utzig, Fernanda Balestro, Bruno Gallina, Tatiana Mamede Salum Chaer*
 <br>
-[PDF]() -- [Apêndices]()
+[PDF](publicacoes/PNUI_Produto_8.pdf){target="_blank"} -- [Apêndices](publicacoes/PNUI_Produto_8_Apendices.pdf){target="_blank"}
 :::
 
 :::{.callout-note appearance="minimal"}
@@ -120,7 +122,7 @@ execute:
 <br>
 *Ana Carolina Campos de Melo, Gabriel Moraes de Outeiro, Rafael Gonçalves Gumiero, Sergio Moreno Redón, Tatiana Mamede Salum Chaer*
 <br>
-[PDF]()
+[PDF](publicacoes/PNUI_Produto_9.pdf){target="_blank"}
 :::
 
 :::{.callout-note appearance="minimal"}
@@ -131,7 +133,7 @@ execute:
 <br>
 *Alexandrina Saldanha Sobreira de Moura, David Melo Van Den Brule, Kaiena Thyelle Malaquias, Miriam Francisca Rodrigues Couto*
 <br>
-[PDF]()
+[PDF](publicacoes/PNUI_Produto_10.pdf){target="_blank"}
 :::
 
 :::{.callout-note appearance="minimal"}
@@ -142,7 +144,7 @@ execute:
 <br>
 *Juliana Gomes Petrarolli, Rosana Denaldi, Cleandro Krause, Flávia da Fonseca Feitosa, Gilmara Gonçalves, Luis Felipe Bortolatto da Cunha, Mariana Roberti Bomtempo, Miriam Francisca Rodrigues Couto, Pedro Reis Simões, Tatiana Mamede Salum Chaer*
 <br>
-[PDF]()
+[PDF](publicacoes/PNUI_Produto_11.pdf){target="_blank"}
 :::
 
 :::{.callout-note appearance="minimal"}
@@ -153,7 +155,7 @@ execute:
 <br>
 *Flávia da Fonseca Feitosa, Gilmara Gonçalves, Luis Felipe Bortolatto da Cunha, Pedro Reis Simões, Cleandro Krause, Juliana Gomes Petrarolli*
 <br>
-[PDF]() -- [Apêndices]()
+[PDF](publicacoes/PNUI_Produto_12.pdf){target="_blank"} -- [Apêndices](publicacoes/PNUI_Produto_12_Apendices.pdf){target="_blank"}
 :::
 
 :::{.callout-note appearance="minimal"}
@@ -164,11 +166,17 @@ execute:
 <br>
 *Cleandro Krause, Marco Aurélio Costa, Fernanda Carolina Vieira da Costa, Flávia da Fonseca Feitosa, Juliana Gomes Petrarolli, Paulo Somlanyi Romeiro, Rosana Denaldi*
 <br>
-[PDF]()
+[PDF](publicacoes/PNUI_Produto_13.pdf){target="_blank"}
 :::
 
 ## Outras publicações
 
+::: grid
+::: g-col-4
+<br>
+![](assets/pub1.jpg)
+:::
+::: g-col-8
 :::{.callout-note appearance="minimal"}
 ## Nota Técnica (Dirur)
 8 de junho de 2022
@@ -177,16 +185,26 @@ execute:
 <br>
 *Renato Balbim, Cleandro Krause*
 <br>
-[PDF](http://repositorio.ipea.gov.br/bitstream/11058/11202/2/NT_35_Dirur_Analise_Preliminar.pdf)
+[PDF](http://repositorio.ipea.gov.br/handle/11058/11202){target="_blank"}
+:::
+:::
 :::
 
+::: grid
+::: g-col-4
+<br>
+![](assets/pub2.jpg)
+:::
+::: g-col-8
 :::{.callout-note appearance="minimal"}
 ## Boletim Regional, Urbano e Ambiental (Dirur)
 2 de março de 2020
 <br>
-**Irregularidade fundiária e urbanística no Brasil : bases para um projeto de pesquisa**
+**Irregularidade fundiária e urbanística no Brasil: bases para um projeto de pesquisa**
 <br>
 *Cleandro Krause*
 <br>
-[PDF](http://repositorio.ipea.gov.br/bitstream/11058/9693/1/BRUA21_NotaPesquisa3.pdf)
+[PDF](http://repositorio.ipea.gov.br/handle/11058/9693){target="_blank"}
+:::
+:::
 :::

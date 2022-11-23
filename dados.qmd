@@ -16,12 +16,12 @@ tb <- data.frame(
              "Marabá",
              "Porto Alegre",
              "Recife"),
-  Download = c("<a href=''>Shapefile</a> · <a href=''>Excel</a> · <a href=''>csv</a>",
-               "<a href=''>Shapefile</a> · <a href=''>Excel</a> · <a href=''>csv</a>",
-               "<a href=''>Shapefile</a> · <a href=''>Excel</a> · <a href=''>csv</a>",
-               "<a href=''>Shapefile</a> · <a href=''>Excel</a> · <a href=''>csv</a>",
-               "<a href=''>Shapefile</a> · <a href=''>Excel</a> · <a href=''>csv</a>",
-               "<a href=''>Shapefile</a> · <a href=''>Excel</a> · <a href=''>csv</a>")
+  Download = c("<a download href='dados/PNUI_Mapeamento_Belo_Horizonte.zip'>shapefile</a> · <a download href='dados/PNUI_Mapeamento_Belo_Horizonte.gpkg'>geopackage</a> · <a download href='dados/PNUI_Mapeamento_Belo_Horizonte.xlsx'>excel</a> · <a download href='dados/PNUI_Mapeamento_Belo_Horizonte.csv'>csv</a>",
+               "<a download href='dados/PNUI_Mapeamento_Brasilia.zip'>shapefile</a> · <a download href='dados/PNUI_Mapeamento_Brasilia.gpkg'>geopackage</a> · <a download href='dados/PNUI_Mapeamento_Brasilia.xlsx'>excel</a> · <a download href='dados/PNUI_Mapeamento_Brasilia.csv'>csv</a>",
+               "<a download href='dados/PNUI_Mapeamento_Juazeiro_do_Norte.zip'>shapefile</a> · <a download href='dados/PNUI_Mapeamento_Juazeiro_do_Norte.gpkg'>geopackage</a> · <a download href='dados/PNUI_Mapeamento_Juazeiro_do_Norte.xlsx'>excel</a> · <a download href='dados/PNUI_Mapeamento_Juazeiro_do_Norte.csv'>csv</a>",
+               "<a download href='dados/PNUI_Mapeamento_Maraba.zip'>shapefile</a> · <a download href='dados/PNUI_Mapeamento_Maraba.gpkg'>geopackage</a> · <a download href='dados/PNUI_Mapeamento_Maraba.xlsx'>excel</a> · <a download href='dados/PNUI_Mapeamento_Maraba.csv'>csv</a>",
+               "<a download href='dados/PNUI_Mapeamento_Porto_Alegre.zip'>shapefile</a> · <a download href='dados/PNUI_Mapeamento_Porto_Alegre.gpkg'>geopackage</a> · <a download href='dados/PNUI_Mapeamento_Porto_Alegre.xlsx'>excel</a> · <a download href='dados/PNUI_Mapeamento_Porto_Alegre.csv'>csv</a>",
+               "<a download href='dados/PNUI_Mapeamento_Recife.zip'>shapefile</a> · <a download href='dados/PNUI_Mapeamento_Recife.gpkg'>geopackage</a> · <a download href='dados/PNUI_Mapeamento_Recife.xlsx'>excel</a> · <a download href='dados/PNUI_Mapeamento_Recife.csv'>csv</a>")
 )
 DT::datatable(tb,
           escape = FALSE,
@@ -31,7 +31,7 @@ DT::datatable(tb,
           options = list(dom = "t",
                          ordering = FALSE,
                          pageLength = 6,
-                         columnDefs = list(list(width = '50%', targets = list(1))))) #|>
+                         columnDefs = list(list(width = '40%', targets = list(1))))) #|>
   #DT::formatStyle(columns = c(1, 2), fontSize = '75%')
 ```
 
@@ -48,9 +48,9 @@ tb <- data.frame(
   'Arquivos suplementares' = c("Dicionário de dados",
              "Ficha de campo",
              "Tutorial para preenchimento da Ficha de Campo e conceitos utilizados"),
-  Download = c("<a href=''>PDF</a>",
-               "<a href=''>PDF</a>",
-               "<a href=''>PDF</a>"),
+  Download = c("<a download href='dados/PNUI_Mapeamento_Dicionario.pdf'>PDF</a>",
+               "<a download href='dados/PNUI_Mapeamento_Ficha_de_campo.pdf'>PDF</a>",
+               "<a download href='dados/PNUI_Mapeamento_Tutorial.pdf'>PDF</a>"),
   check.names = FALSE
 )
 datatable(tb,
