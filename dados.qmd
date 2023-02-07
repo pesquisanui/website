@@ -66,6 +66,33 @@ datatable(tb,
 
 ## Superfícies de probabilidade
 
-Com o intuito de auxiliar na identificação de Núcleos Urbanos Informais, foi desenvolvida uma metodologia que indica a probabilidade de presença de NUI nos territórios. Essas superfícies de probabilidade podem ser utilizadas como um plano adicional de informação para subsidiar trabalhos de campo e/ou para análise da qualidade de bases de dados existentes. Os modelos foram construídos a partir da integração de dados secundários de fontes distintas (Censo Demográfico 2010, Cadastro Único etc.) em uma grade celular com 100m de lado (compatível com a Grade Estatística do IBGE).
+Com o intuito de auxiliar na identificação de Núcleos Urbanos Informais, foi desenvolvida uma metodologia que indica a **probabilidade de presença de NUI** nos territórios analisados. Essas superfícies de probabilidade podem ser utilizadas como um plano adicional de informação para subsidiar trabalhos de campo e/ou para análise da qualidade de bases de dados existentes. Os modelos foram construídos utilizando a técnica 'regressão logística' em dados secundários de fontes distintas (Censo Demográfico 2010, Cadastro Único, OpenStreetMap e outras) integrados em uma grade celular com 100m de lado (compatível com a Grade Estatística do IBGE).
 
-[Download em breve](#superfícies-de-probabilidade)
+```{r}
+#| echo: false
+library(DT)
+tb <- data.frame(
+  Polo = c("Belo Horizonte",
+             "Brasília",
+             "Juazeiro do Norte",
+             "Marabá",
+             "Porto Alegre",
+             "Recife"),
+  Download = c("<a download href='dados/PNUI_Probabilidade_Belo_Horizonte.zip'>shapefile</a> · <a download href='dados/PNUI_Probabilidade_Belo_Horizonte.gpkg'>geopackage</a>",
+               "<a download href='dados/PNUI_Probabilidade_Brasilia.zip'>shapefile</a> · <a download href='dados/PNUI_Probabilidade_Brasilia.gpkg'>geopackage</a>",
+               "<a download href='dados/PNUI_Probabilidade_Juazeiro_do_Norte.zip'>shapefile</a> · <a download href='dados/PNUI_Probabilidade_Juazeiro_do_Norte.gpkg'>geopackage</a>",
+               "<a download href='dados/PNUI_Probabilidade_Maraba.zip'>shapefile</a> · <a download href='dados/PNUI_Probabilidade_Maraba.gpkg'>geopackage</a>",
+               "<a download href='dados/PNUI_Probabilidade_Porto_Alegre.zip'>shapefile</a> · <a download href='dados/PNUI_Probabilidade_Porto_Alegre.gpkg'>geopackage</a>",
+               "<a download href='dados/PNUI_Probabilidade_Recife.zip'>shapefile</a> · <a download href='dados/PNUI_Probabilidade_Recife.gpkg'>geopackage</a>")
+)
+DT::datatable(tb,
+          escape = FALSE,
+          rownames = FALSE,
+          filter = "none",
+          autoHideNavigation = TRUE,
+          options = list(dom = "t",
+                         ordering = FALSE,
+                         pageLength = 6,
+                         columnDefs = list(list(width = '40%', targets = list(1))))) #|>
+  #DT::formatStyle(columns = c(1, 2), fontSize = '75%')
+```

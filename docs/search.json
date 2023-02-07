@@ -88,6 +88,6 @@
     "href": "dados.html#superfícies-de-probabilidade",
     "title": "Download dos dados",
     "section": "Superfícies de probabilidade",
-    "text": "Superfícies de probabilidade\nCom o intuito de auxiliar na identificação de Núcleos Urbanos Informais, foi desenvolvida uma metodologia que indica a probabilidade de presença de NUI nos territórios. Essas superfícies de probabilidade podem ser utilizadas como um plano adicional de informação para subsidiar trabalhos de campo e/ou para análise da qualidade de bases de dados existentes. Os modelos foram construídos a partir da integração de dados secundários de fontes distintas (Censo Demográfico 2010, Cadastro Único etc.) em uma grade celular com 100m de lado (compatível com a Grade Estatística do IBGE).\nDownload em breve"
+    "text": "Superfícies de probabilidade\nCom o intuito de auxiliar na identificação de Núcleos Urbanos Informais, foi desenvolvida uma metodologia que indica a probabilidade de presença de NUI nos territórios analisados. Essas superfícies de probabilidade podem ser utilizadas como um plano adicional de informação para subsidiar trabalhos de campo e/ou para análise da qualidade de bases de dados existentes. Os modelos foram construídos utilizando a técnica ‘regressão logística’ em dados secundários de fontes distintas (Censo Demográfico 2010, Cadastro Único, OpenStreetMap e outras) integrados em uma grade celular com 100m de lado (compatível com a Grade Estatística do IBGE)."
   }
 ]

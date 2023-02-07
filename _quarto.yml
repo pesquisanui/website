@@ -8,7 +8,7 @@ website:
   favicon: "assets/logo-ipea-favicon.png"
   reader-mode: false
   page-footer: 
-    center: "Todo o conteúdo deste site está publicado sob a Licença Creative Commons Atribuição 2.5 Brasil<br>© 2022 Instituto de Pesquisa Econômica Aplicada (Ipea)" #[Política de Privacidade](https://www.ipea.gov.br/portal/images/stories/PDFs/211222_declaracao_privacidade_dados_ipea.pdf)<br />[Expediente – Assessoria de Imprensa e Comunicação](https://www.ipea.gov.br/portal/index.php?option=com_content&view=article&id=13651&catid=156)"
+    center: "Todo o conteúdo deste site está publicado sob a Licença Creative Commons Atribuição 2.5 Brasil<br>© 2023 Instituto de Pesquisa Econômica Aplicada (Ipea)" #[Política de Privacidade](https://www.ipea.gov.br/portal/images/stories/PDFs/211222_declaracao_privacidade_dados_ipea.pdf)<br />[Expediente – Assessoria de Imprensa e Comunicação](https://www.ipea.gov.br/portal/index.php?option=com_content&view=article&id=13651&catid=156)"
     border: true
   navbar:
     title: "**PESQUISA DE <br>NÚCLEOS URBANOS INFORMAIS**"
